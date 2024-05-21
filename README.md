@@ -1,13 +1,14 @@
 # What
-- Template use for setup setting you need for create unity package
-- Replace your setting in file package.json
+
+- Microsoft.Bcl.AsyncInterfaces.6.0.0 
+- netstandard2.1
 
 
 # How To Install Package
 
 Add the lines below to `Packages/manifest.json`
 
-for version x.x.x
+for version `6.0.0`
 ```csharp
-"com.pancake.__package_name__": "https://github.com/pancake-llc/packagename.git#x.x.x",
+"com.pancake.bcl.asyncinterfaces": "https://github.com/pancake-llc/microsoft-bcl-async-interfaces.git#6.0.0",
 ```
